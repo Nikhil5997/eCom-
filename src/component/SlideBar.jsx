@@ -54,7 +54,7 @@ const Sidebar = ({ children }) => {
         ))}
       </div>
       <main
-        className={`ml-${isOpen ? "200" : "50"} p-5 w-full transition-all duration-500`}
+        className={`ml-${isOpen ? "200" : "50"} w-full transition-all duration-500`}
         style={{ marginLeft: isOpen ? "200px" : "50px" }}
       >
         {children}
